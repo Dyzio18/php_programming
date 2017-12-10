@@ -31,13 +31,13 @@ class RingBuffer
     private $currentSize;
 
     /**
-     * First free position in buffer
+     * Pointer to tail in buffer
      * @var int
      */
     private $positionTail;
 
     /**
-     * First free position in buffer
+     * Pointer to head in buffer
      * @var int
      */
     private $positionHead;
